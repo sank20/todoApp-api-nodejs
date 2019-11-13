@@ -32,7 +32,14 @@ let TodoSchema = new Schema({
     modifiedDate: {
         type: Date,
         default: Date.now
-    }
+    },
+    /** 
+     * whether the todo task is completed
+    */
+   isdone: {
+       type: Boolean,
+       default: false
+   }
 }, {
     versionKey: false
 });
