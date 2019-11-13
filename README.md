@@ -34,5 +34,9 @@ JSON Request Body:
     modifiedDate: {
         type: Date,
         default: Date.now
-    }
+    },
+    isdone: {
+       type: Boolean,
+       default: false
+   }
 }
