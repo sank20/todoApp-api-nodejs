@@ -10,7 +10,7 @@ You can access the app at [http://localhost:3000/](http://localhost:3000/).
 POST request URI: 
 `HOST_URL/todos`
 JSON Request Body: 
-`{
+```{
      title: {
         type: String,
         required: "title is required"
@@ -35,4 +35,4 @@ JSON Request Body:
         type: Date,
         default: Date.now
     }
-}`
+}
